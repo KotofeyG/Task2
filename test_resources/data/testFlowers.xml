@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<flowers xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="urn:com.kotov.greenhouse"
+         xsi:schemaLocation="urn:com.kotov.greenhouse ../schema/testSchema.xsd">
+
+    <cut-flower vendor-code="A00002" planting-date="2001-02-09" cut-date="2002-04-11" leaves="false">
+        <title>CutFlowerKL</title>
+        <origin>Africa</origin>
+        <petal-color>yellow</petal-color>
+        <stem-length>33</stem-length>
+        <bud-state>closed</bud-state>
+    </cut-flower>
+    <cut-flower vendor-code="A00000" planting-date="2001-02-03" cut-date="2002-04-05" leaves="false">
+        <title>CutFlower</title>
+        <origin>Europe</origin>
+        <petal-color>red</petal-color>
+        <stem-length>30</stem-length>
+        <bud-state>open</bud-state>
+    </cut-flower>
+    <cut-flower vendor-code="A00006" planting-date="2001-03-17" cut-date="2002-05-17" leaves="false">
+        <title>CutFlowerKLMNOP</title>
+        <origin>Asia</origin>
+        <petal-color>yellow</petal-color>
+        <stem-length>51</stem-length>
+        <bud-state>open</bud-state>
+    </cut-flower>
+    <cut-flower vendor-code="A00001" planting-date="2001-02-05" cut-date="2002-04-07">
+        <title>CutFlowerK</title>
+        <origin>Asia</origin>
+        <petal-color>white</petal-color>
+        <stem-length>31</stem-length>
+        <bud-state>half_open</bud-state>
+    </cut-flower>
+    <cut-flower vendor-code="A00004" planting-date="2001-02-23" cut-date="2002-04-25" leaves="false">
+        <title>CutFlowerKLMN</title>
+        <origin>North_America</origin>
+        <petal-color>pink</petal-color>
+        <stem-length>40</stem-length>
+        <bud-state>open</bud-state>
+    </cut-flower>
+    <cut-flower vendor-code="A00003" planting-date="2001-02-15" cut-date="2002-04-17">
+        <title>CutFlowerKLM</title>
+        <origin>South_America</origin>
+        <petal-color>blue</petal-color>
+        <stem-length>36</stem-length>
+        <bud-state>half_open</bud-state>
+    </cut-flower>
+    <cut-flower vendor-code="A00007" planting-date="2001-03-31" cut-date="2002-05-31">
+        <title>CutFlowerKLMNOPQ</title>
+        <origin>Africa</origin>
+        <petal-color>blue</petal-color>
+        <stem-length>58</stem-length>
+        <bud-state>half_open</bud-state>
+    </cut-flower>
+    <cut-flower vendor-code="A00005" planting-date="2001-03-05" cut-date="2002-05-05">
+        <title>CutFlowerKLMNO</title>
+        <origin>Australia</origin>
+        <petal-color>white</petal-color>
+        <stem-length>45</stem-length>
+        <bud-state>half_open</bud-state>
+    </cut-flower>
+    <indoor-flower vendor-code="B00003" planting-date="2001-02-21">
+        <title>IndoorFlowerABC</title>
+        <origin>South_America</origin>
+        <petal-color>blue</petal-color>
+        <pot-type>solid</pot-type>
+        <soil>soddy-podzolic</soil>
+        <watering>450</watering>
+        <average-temperature>22.5</average-temperature>
+        <photophilous>false</photophilous>
+        <multiplying>leaf</multiplying>
+    </indoor-flower>
+    <indoor-flower vendor-code="B00000" planting-date="2003-06-07">
+        <title>IndoorFlower</title>
+        <origin>Asia</origin>
+        <petal-color>white</petal-color>
+        <pot-type>pot-holder</pot-type>
+        <soil>turf</soil>
+        <watering>300</watering>
+        <average-temperature>15</average-temperature>
+        <photophilous>true</photophilous>
+        <multiplying>seed</multiplying>
+    </indoor-flower>
+    <indoor-flower vendor-code="B00005" planting-date="2001-03-15">
+        <title>IndoorFlowerABCDE</title>
+        <origin>Australia</origin>
+        <petal-color>white</petal-color>
+        <pot-type>solid</pot-type>
+        <soil>soddy-podzolic</soil>
+        <watering>550</watering>
+        <average-temperature>27.5</average-temperature>
+        <photophilous>false</photophilous>
+        <multiplying>leaf</multiplying>
+    </indoor-flower>
+    <indoor-flower vendor-code="B00007" planting-date="2001-04-14">
+        <title>IndoorFlowerABCDEFG</title>
+        <origin>Africa</origin>
+        <petal-color>blue</petal-color>
+        <pot-type>solid</pot-type>
+        <soil>soddy-podzolic</soil>
+        <watering>650</watering>
+        <average-temperature>32.5</average-temperature>
+        <photophilous>false</photophilous>
+        <multiplying>leaf</multiplying>
+    </indoor-flower>
+    <indoor-flower vendor-code="B00002" planting-date="2001-02-13">
+        <title>IndoorFlowerAB</title>
+        <origin>Africa</origin>
+        <petal-color>yellow</petal-color>
+        <pot-type>drainage</pot-type>
+        <soil>humus</soil>
+        <watering>400</watering>
+        <average-temperature>20</average-temperature>
+        <photophilous>true</photophilous>
+        <multiplying>cutting</multiplying>
+    </indoor-flower>
+    <indoor-flower vendor-code="B00001" planting-date="2001-02-07">
+        <title>IndoorFlowerA</title>
+        <origin>Asia</origin>
+        <petal-color>white</petal-color>
+        <pot-type>solid</pot-type>
+        <soil>soddy-podzolic</soil>
+        <watering>350</watering>
+        <average-temperature>17.5</average-temperature>
+        <photophilous>false</photophilous>
+        <multiplying>leaf</multiplying>
+    </indoor-flower>
+    <indoor-flower vendor-code="B00006" planting-date="2001-03-29">
+        <title>IndoorFlowerABCDEF</title>
+        <origin>Asia</origin>
+        <petal-color>yellow</petal-color>
+        <pot-type>pot-holder</pot-type>
+        <soil>turf</soil>
+        <watering>600</watering>
+        <average-temperature>30</average-temperature>
+        <photophilous>true</photophilous>
+        <multiplying>seed</multiplying>
+    </indoor-flower>
+    <indoor-flower vendor-code="B00004" planting-date="2001-03-03">
+        <title>IndoorFlowerABCD</title>
+        <origin>North_America</origin>
+        <petal-color>pink</petal-color>
+        <pot-type>pot-holder</pot-type>
+        <soil>turf</soil>
+        <watering>500</watering>
+        <average-temperature>25</average-temperature>
+        <photophilous>true</photophilous>
+        <multiplying>seed</multiplying>
+    </indoor-flower>
+</flowers>
