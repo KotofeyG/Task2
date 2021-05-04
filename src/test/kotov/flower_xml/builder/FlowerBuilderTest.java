@@ -19,71 +19,31 @@ public class FlowerBuilderTest {
     Set<Flower> expected;
 
     @BeforeClass
-    public void createTestObjects() {
+    public void setUpTestFlowers() {
         expected = new HashSet<>();
-
-        StringBuilder vendorCodeCF = new StringBuilder("A00000");
-        StringBuilder titleCF = new StringBuilder("CutFlower");
-        Origin originCF = Origin.EUROPE;
-        LocalDate plantingDateCF = LocalDate.parse("2001-02-03");
-        Color petalColorCF = Color.RED;
-        LocalDate cutDate = LocalDate.parse("2002-04-05");
-        double stemLength = 30;
-        BudState budState = BudState.OPEN;
-        boolean leaves = false;
-
-        StringBuilder vendorCodeIF = new StringBuilder("B00000");
-        StringBuilder titleIF = new StringBuilder("IndoorFlower");
-        Origin originIF = Origin.ASIA;
-        LocalDate plantingDateIF = LocalDate.parse("2003-06-07");
-        Color petalColorIF = Color.WHITE;
-        PotType potType = PotType.POT_HOLDER;
-        Soil soil = Soil.TURF;
-        int watering = 300;
-        double averageTemperature = 15;
-        boolean photophilous = true;
-        Multiplying multiplying = Multiplying.SEED;
-
-        for (int index = 1; index <= 8; index++) {
-            CutFlower cutFlower = new CutFlower(vendorCodeCF.toString(), titleCF.toString(), originCF, plantingDateCF
-                    , petalColorCF, cutDate, stemLength, budState, leaves);
-
-            vendorCodeCF.replace(vendorCodeCF.length() - 1, vendorCodeCF.length(), Integer.toString(index));
-            titleCF.append((char) (74 + index));
-            originCF = Origin.values()[(index < 6) ? index : (index % 5)];
-            plantingDateCF = plantingDateCF.plusDays(index << 1);
-            petalColorCF = Color.values()[(index < 5) ? index : (index % 4)];
-            cutDate = cutDate.plusDays(index << 1);
-            stemLength += index;
-            budState = BudState.values()[(index < 3) ? index : (index % 2)];
-            leaves = !leaves;
-
-            IndoorFlower indoorFlower = new IndoorFlower(vendorCodeIF.toString(), titleIF.toString(), originIF
-                    , plantingDateIF, petalColorIF, potType, soil, watering, averageTemperature, photophilous
-                    , multiplying);
-
-            vendorCodeIF.replace(vendorCodeCF.length() - 1, vendorCodeCF.length(), Integer.toString(index));
-            titleIF.append((char) (64 + index));
-            originIF = Origin.values()[(index < 6) ? index : (index % 5)];
-            plantingDateIF = plantingDateCF.plusDays(index << 1);
-            petalColorIF = Color.values()[(index < 5) ? index : (index % 4)];
-            potType = PotType.values()[(index < 3) ? index : (index % 2)];
-            soil = Soil.values()[(index < 3) ? index : (index % 2)];
-            watering += 50;
-            averageTemperature += 2.5;
-            photophilous = !photophilous;
-            multiplying = Multiplying.values()[(index < 3) ? index : (index % 2)];
-
-            expected.add(cutFlower);
-            expected.add(indoorFlower);
-
-        }
+        Flower flower1 = new CutFlower("A00001", "Rosa Aida", Origin.EUROPE, LocalDate.parse("2020-02-01")
+                , Color.PINK, LocalDate.parse("2021-04-27"), 70, BudState.OPEN, true);
+        Flower flower2 = new CutFlower("A00002", "Rosa Duftwolke", Origin.EUROPE, LocalDate.parse("2020-05-10")
+                , Color.RED, LocalDate.parse("2021-04-27"), 72, BudState.HALF_OPEN, false);
+        Flower flower3 = new CutFlower("A00003", "Rosa Captain Harry Stebbings", Origin.NORTH_AMERICA
+                , LocalDate.parse("2019-07-09"), Color.RED, LocalDate.parse("2021-04-27"), 60, BudState.OPEN, true);
+        Flower flower4 = new IndoorFlower("B00001", "Anigozanthos", Origin.AUSTRALIA, LocalDate.parse("2017-01-10")
+                , Color.RED, PotType.SOLID, Soil.TURF, 1200, 25, true, Multiplying.SEED);
+        Flower flower5 = new IndoorFlower("B00002", "Hippeastrum", Origin.SOUTH_AMERICA, LocalDate.parse("2016-12-30")
+                , Color.PINK, PotType.DRAINAGE, Soil.HUMUS, 750, 22, true, Multiplying.SEED);
+        Flower flower6 = new IndoorFlower("B00003", "Viola odorata", Origin.ASIA, LocalDate.parse("2017-06-08")
+                , Color.BLUE, PotType.SOLID, Soil.SODDY_PODZOLIC, 350, 21, false, Multiplying.LEAF);
+        expected.add(flower1);
+        expected.add(flower2);
+        expected.add(flower3);
+        expected.add(flower4);
+        expected.add(flower5);
+        expected.add(flower6);
     }
 
     @DataProvider(name = "all-builders")
     public Object[][] builderDataProvider() throws FlowerException {
-        String pathToFile = String.join(File.separator, "test_resources", "data", "testFlowers.xml");
-
+        String pathToFile = String.join(File.separator, "test_resources", "testFlowers.xml");
         return new Object[][]{
                 {FlowerBuilderFactory.createFlowerBuilder("DOM"), String.join(File.separator, pathToFile)},
                 {FlowerBuilderFactory.createFlowerBuilder("SAX"), String.join(File.separator, pathToFile)},

@@ -11,7 +11,7 @@
 
     <complexType name="Flowers">
         <sequence>
-            <element ref="tns:flower" minOccurs="16" maxOccurs="unbounded"/>
+            <element ref="tns:flower" minOccurs="6" maxOccurs="unbounded"/>
         </sequence>
     </complexType>
 

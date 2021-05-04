@@ -17,9 +17,8 @@ import java.io.IOException;
 public class FlowerXmlValidator {
     public static Logger logger = LogManager.getLogger();
 
-    public static boolean isValid(String pathToXml, String pathToXsd) {
-        if (!(FileValidator.isValid(pathToXml) && FileValidator.isValid(pathToXsd))) {
-            logger.log(Level.INFO, "File " + pathToXml + " is not valid. Result is " + false);
+    public static boolean isXmlFileValid(String pathToXml, String pathToXsd) {
+        if (!(FileValidator.isFileValid(pathToXml) && FileValidator.isFileValid(pathToXsd))) {
             return false;
         }
         boolean result = true;

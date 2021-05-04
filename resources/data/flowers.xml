@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <flowers xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xmlns="urn:com.kotov.greenhouse"
-         xsi:schemaLocation="urn:com.kotov.greenhouse ../schema/schema.xsd">
+         xsi:schemaLocation="urn:com.kotov.greenhouse schema.xsd">
 
     <cut-flower vendor-code="A00001" planting-date="2020-02-01" cut-date="2021-04-27">
         <title>Rosa Aida</title>

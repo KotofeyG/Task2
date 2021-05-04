@@ -1,4 +1,1 @@
-30 апр. 2021 17:41:07,443 [main] INFO  com.kotov.flower_xml.builder.SaxFlowerBuilder : buildFlowersFromXml - Construction of flower objects by SaxFlowerBuilder is successful
-30 апр. 2021 17:41:07,636 [main] INFO  com.kotov.flower_xml.validator.FlowerXmlValidator : isValid - Result of test_resources\data\testFlowers.xml validation is true
-30 апр. 2021 17:41:07,661 [main] ERROR com.kotov.flower_xml.builder.FlowerErrorHandler : error - Line is 7, column is 35 - cvc-pattern-valid: Value 'Rosa Aida @' is not facet-valid with respect to pattern '[a-zA-Z ]{1,35}' for type 'Title'.
-30 апр. 2021 17:41:07,663 [main] INFO  com.kotov.flower_xml.validator.FlowerXmlValidator : isValid - Result of test_resources\data\invalidFlowerData.xml validation is false
+04 мая 2021 16:05:53,370 [main] INFO  com.kotov.flower_xml.builder.SaxFlowerBuilder : buildFlowersFromXml - Construction of flower objects by SaxFlowerBuilder is successful

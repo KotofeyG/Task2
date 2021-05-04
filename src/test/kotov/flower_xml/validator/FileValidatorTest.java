@@ -9,28 +9,35 @@ import static org.testng.Assert.*;
 
 public class FileValidatorTest {
     @Test
+    public void testIsFileValid() {
+        String invalidPathToFile = String.join(File.separator, "test_resources", "testFlowers.xml");
+        boolean actual = FileValidator.isFileValid(invalidPathToFile);
+        assertTrue(actual);
+    }
+
+    @Test
     public void testIsValidWithNull() {
-        assertFalse(FileValidator.isValid(null));
+        assertFalse(FileValidator.isFileValid(null));
     }
 
     @Test
     public void testIsValidWithInvalidFilePath() {
-        String invalidPathToFile = String.join(File.separator, "test_resources", "data", "nonexistentFile.xml");
-        boolean actual = FileValidator.isValid(invalidPathToFile);
+        String invalidPathToFile = String.join(File.separator, "test_resources", "nonexistentFile.xml");
+        boolean actual = FileValidator.isFileValid(invalidPathToFile);
         assertFalse(actual);
     }
 
     @Test
     public void testIsValidWithEmptyFile() {
-        String pathToEmptyFile = String.join(File.separator, "test_resources", "data", "emptyTestFile.xml");
-        boolean actual = FileValidator.isValid(pathToEmptyFile);
+        String pathToEmptyFile = String.join(File.separator, "test_resources", "emptyTestFile.xml");
+        boolean actual = FileValidator.isFileValid(pathToEmptyFile);
         assertFalse(actual);
     }
 
     @Test
     public void testIsValidWithDirectory() {
         String pathToDirectory = String.join(File.separator, "test_resources", "testDirectory");
-        boolean actual = FileValidator.isValid(pathToDirectory);
+        boolean actual = FileValidator.isFileValid(pathToDirectory);
         assertFalse(actual);
     }
 }

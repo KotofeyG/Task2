@@ -6,7 +6,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 
 public class FileValidator {
-    public static boolean isValid(String pathToFile) {
+    public static boolean isFileValid(String pathToFile) {
         boolean result = false;
         if (pathToFile != null) {
             Path path = Paths.get(pathToFile);

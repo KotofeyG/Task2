@@ -33,7 +33,7 @@ public class SaxFlowerBuilder extends FlowerBuilder {
 
     @Override
     public void buildFlowersFromXml(String pathToFile) throws FlowerException {
-        if (!FileValidator.isValid(pathToFile)) {
+        if (!FileValidator.isFileValid(pathToFile)) {
             throw new FlowerException("Wrong argument. Unable to read " + pathToFile);
         }
         try {
