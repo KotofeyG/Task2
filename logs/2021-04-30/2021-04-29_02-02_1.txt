@@ -1,3 +1,0 @@
-29 апр. 2021 02:02:31,602 [main] INFO  com.kotov.flower_xml.validator.FileValidator : isValid - resources\data\flowers.xml file validation is successful. Result is true
-29 апр. 2021 02:02:31,616 [main] DEBUG com.kotov.flower_xml.builder.SaxFlowerBuilder : buildFlowersFromXml - Argument is resources\data\flowers.xml
-29 апр. 2021 02:02:31,746 [main] INFO  com.kotov.flower_xml.builder.SaxFlowerBuilder : buildFlowersFromXml - Construction of flower objects by SaxFlowerBuilder is successful

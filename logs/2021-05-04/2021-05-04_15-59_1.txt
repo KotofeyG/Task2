@@ -1,1 +1,0 @@
-04 мая 2021 15:59:36,979 [main] INFO  com.kotov.flower_xml.builder.SaxFlowerBuilder : buildFlowersFromXml - Construction of flower objects by SaxFlowerBuilder is successful
