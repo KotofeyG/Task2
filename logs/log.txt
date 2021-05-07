@@ -1,0 +1,262 @@
+07 мая 2021 15:59:02,049 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : createFlower - CutFlower is created
+07 мая 2021 15:59:02,049 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : getElementDataContent - title is Rosa Aida
+07 мая 2021 15:59:02,049 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : getElementDataContent - origin is Europe
+07 мая 2021 15:59:02,064 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : getElementDataContent - petal-color is pink
+07 мая 2021 15:59:02,064 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : createFlower - Attribute LEAVES is added by default for flower with ID A00001
+07 мая 2021 15:59:02,064 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : getElementDataContent - stem-length is 70
+07 мая 2021 15:59:02,064 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : getElementDataContent - bud-state is open
+07 мая 2021 15:59:02,064 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : buildFlowersFromXml - CutFlower with ID A00001 is filled and added into Set<Flower>
+07 мая 2021 15:59:02,064 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : createFlower - CutFlower is created
+07 мая 2021 15:59:02,064 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : getElementDataContent - title is Rosa Duftwolke
+07 мая 2021 15:59:02,064 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : getElementDataContent - origin is Europe
+07 мая 2021 15:59:02,064 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : getElementDataContent - petal-color is red
+07 мая 2021 15:59:02,064 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : getElementDataContent - stem-length is 72
+07 мая 2021 15:59:02,064 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : getElementDataContent - bud-state is half_open
+07 мая 2021 15:59:02,064 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : buildFlowersFromXml - CutFlower with ID A00002 is filled and added into Set<Flower>
+07 мая 2021 15:59:02,064 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : createFlower - CutFlower is created
+07 мая 2021 15:59:02,064 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : getElementDataContent - title is Rosa Captain Harry Stebbings
+07 мая 2021 15:59:02,064 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : getElementDataContent - origin is North_America
+07 мая 2021 15:59:02,064 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : getElementDataContent - petal-color is red
+07 мая 2021 15:59:02,064 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : createFlower - Attribute LEAVES is added by default for flower with ID A00003
+07 мая 2021 15:59:02,064 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : getElementDataContent - stem-length is 60
+07 мая 2021 15:59:02,064 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : getElementDataContent - bud-state is open
+07 мая 2021 15:59:02,064 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : buildFlowersFromXml - CutFlower with ID A00003 is filled and added into Set<Flower>
+07 мая 2021 15:59:02,064 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : createFlower - IndoorFlower is created
+07 мая 2021 15:59:02,064 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : getElementDataContent - title is Anigozanthos
+07 мая 2021 15:59:02,064 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : getElementDataContent - origin is Australia
+07 мая 2021 15:59:02,064 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : getElementDataContent - petal-color is red
+07 мая 2021 15:59:02,064 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : getElementDataContent - pot-type is solid
+07 мая 2021 15:59:02,064 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : getElementDataContent - soil is turf
+07 мая 2021 15:59:02,064 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : getElementDataContent - watering is 1200
+07 мая 2021 15:59:02,064 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : getElementDataContent - average-temperature is 25
+07 мая 2021 15:59:02,064 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : getElementDataContent - photophilous is true
+07 мая 2021 15:59:02,064 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : getElementDataContent - multiplying is seed
+07 мая 2021 15:59:02,064 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : buildFlowersFromXml - IndoorFlower with ID B00001 is filled and added into Set<Flower>
+07 мая 2021 15:59:02,064 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : createFlower - IndoorFlower is created
+07 мая 2021 15:59:02,064 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : getElementDataContent - title is Hippeastrum
+07 мая 2021 15:59:02,064 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : getElementDataContent - origin is South_America
+07 мая 2021 15:59:02,064 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : getElementDataContent - petal-color is pink
+07 мая 2021 15:59:02,064 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : getElementDataContent - pot-type is drainage
+07 мая 2021 15:59:02,064 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : getElementDataContent - soil is humus
+07 мая 2021 15:59:02,064 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : getElementDataContent - watering is 750
+07 мая 2021 15:59:02,064 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : getElementDataContent - average-temperature is 22
+07 мая 2021 15:59:02,080 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : getElementDataContent - photophilous is true
+07 мая 2021 15:59:02,080 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : getElementDataContent - multiplying is seed
+07 мая 2021 15:59:02,080 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : buildFlowersFromXml - IndoorFlower with ID B00002 is filled and added into Set<Flower>
+07 мая 2021 15:59:02,080 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : createFlower - IndoorFlower is created
+07 мая 2021 15:59:02,080 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : getElementDataContent - title is Viola odorata
+07 мая 2021 15:59:02,080 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : getElementDataContent - origin is Asia
+07 мая 2021 15:59:02,080 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : getElementDataContent - petal-color is blue
+07 мая 2021 15:59:02,080 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : getElementDataContent - pot-type is solid
+07 мая 2021 15:59:02,080 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : getElementDataContent - soil is soddy-podzolic
+07 мая 2021 15:59:02,080 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : getElementDataContent - watering is 350
+07 мая 2021 15:59:02,080 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : getElementDataContent - average-temperature is 21
+07 мая 2021 15:59:02,080 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : getElementDataContent - photophilous is false
+07 мая 2021 15:59:02,080 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : getElementDataContent - multiplying is leaf
+07 мая 2021 15:59:02,080 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : buildFlowersFromXml - IndoorFlower with ID B00003 is filled and added into Set<Flower>
+07 мая 2021 15:59:02,080 [main] INFO  com.kotov.flower_xml.builder.FlowerBuilder : buildFlowersFromXml - Construction of flower objects by DomFlowerBuilder is successful
+07 мая 2021 15:59:02,080 [main] DEBUG com.kotov.flower_xml.builder.FlowerHandler : startElement - CutFlower is created
+07 мая 2021 15:59:02,096 [main] DEBUG com.kotov.flower_xml.builder.FlowerHandler : setFlowerAttributes - Attribute VENDOR_CODE for CutFlower with ID A00001 is A00001
+07 мая 2021 15:59:02,096 [main] DEBUG com.kotov.flower_xml.builder.FlowerHandler : setFlowerAttributes - Attribute PLANTING_DATE for CutFlower with ID A00001 is 2020-02-01
+07 мая 2021 15:59:02,096 [main] DEBUG com.kotov.flower_xml.builder.FlowerHandler : setFlowerAttributes - Attribute CUT_DATE for CutFlower with ID A00001 is 2021-04-27
+07 мая 2021 15:59:02,096 [main] DEBUG com.kotov.flower_xml.builder.FlowerHandler : setDefaultFlowerAttribute - Attribute LEAVES is added by default for flower with ID A00001
+07 мая 2021 15:59:02,096 [main] DEBUG com.kotov.flower_xml.builder.FlowerHandler : characters - TITLE for CutFlower with ID A00001 is Rosa Aida
+07 мая 2021 15:59:02,096 [main] DEBUG com.kotov.flower_xml.builder.FlowerHandler : characters - ORIGIN for CutFlower with ID A00001 is Europe
+07 мая 2021 15:59:02,096 [main] DEBUG com.kotov.flower_xml.builder.FlowerHandler : characters - PETAL_COLOR for CutFlower with ID A00001 is pink
+07 мая 2021 15:59:02,096 [main] DEBUG com.kotov.flower_xml.builder.FlowerHandler : characters - STEM_LENGTH for CutFlower with ID A00001 is 70
+07 мая 2021 15:59:02,096 [main] DEBUG com.kotov.flower_xml.builder.FlowerHandler : characters - BUD_STATE for CutFlower with ID A00001 is open
+07 мая 2021 15:59:02,096 [main] DEBUG com.kotov.flower_xml.builder.FlowerHandler : endElement - CutFlower with ID A00001 is filled and added into Set<Flower>
+07 мая 2021 15:59:02,096 [main] DEBUG com.kotov.flower_xml.builder.FlowerHandler : startElement - CutFlower is created
+07 мая 2021 15:59:02,096 [main] DEBUG com.kotov.flower_xml.builder.FlowerHandler : setFlowerAttributes - Attribute VENDOR_CODE for CutFlower with ID A00002 is A00002
+07 мая 2021 15:59:02,096 [main] DEBUG com.kotov.flower_xml.builder.FlowerHandler : setFlowerAttributes - Attribute PLANTING_DATE for CutFlower with ID A00002 is 2020-05-10
+07 мая 2021 15:59:02,096 [main] DEBUG com.kotov.flower_xml.builder.FlowerHandler : setFlowerAttributes - Attribute CUT_DATE for CutFlower with ID A00002 is 2021-04-27
+07 мая 2021 15:59:02,096 [main] DEBUG com.kotov.flower_xml.builder.FlowerHandler : setFlowerAttributes - Attribute LEAVES for CutFlower with ID A00002 is false
+07 мая 2021 15:59:02,096 [main] DEBUG com.kotov.flower_xml.builder.FlowerHandler : characters - TITLE for CutFlower with ID A00002 is Rosa Duftwolke
+07 мая 2021 15:59:02,096 [main] DEBUG com.kotov.flower_xml.builder.FlowerHandler : characters - ORIGIN for CutFlower with ID A00002 is Europe
+07 мая 2021 15:59:02,096 [main] DEBUG com.kotov.flower_xml.builder.FlowerHandler : characters - PETAL_COLOR for CutFlower with ID A00002 is red
+07 мая 2021 15:59:02,096 [main] DEBUG com.kotov.flower_xml.builder.FlowerHandler : characters - STEM_LENGTH for CutFlower with ID A00002 is 72
+07 мая 2021 15:59:02,096 [main] DEBUG com.kotov.flower_xml.builder.FlowerHandler : characters - BUD_STATE for CutFlower with ID A00002 is half_open
+07 мая 2021 15:59:02,096 [main] DEBUG com.kotov.flower_xml.builder.FlowerHandler : endElement - CutFlower with ID A00002 is filled and added into Set<Flower>
+07 мая 2021 15:59:02,111 [main] DEBUG com.kotov.flower_xml.builder.FlowerHandler : startElement - CutFlower is created
+07 мая 2021 15:59:02,111 [main] DEBUG com.kotov.flower_xml.builder.FlowerHandler : setFlowerAttributes - Attribute VENDOR_CODE for CutFlower with ID A00003 is A00003
+07 мая 2021 15:59:02,111 [main] DEBUG com.kotov.flower_xml.builder.FlowerHandler : setFlowerAttributes - Attribute PLANTING_DATE for CutFlower with ID A00003 is 2019-07-09
+07 мая 2021 15:59:02,111 [main] DEBUG com.kotov.flower_xml.builder.FlowerHandler : setFlowerAttributes - Attribute CUT_DATE for CutFlower with ID A00003 is 2021-04-27
+07 мая 2021 15:59:02,111 [main] DEBUG com.kotov.flower_xml.builder.FlowerHandler : setDefaultFlowerAttribute - Attribute LEAVES is added by default for flower with ID A00003
+07 мая 2021 15:59:02,111 [main] DEBUG com.kotov.flower_xml.builder.FlowerHandler : characters - TITLE for CutFlower with ID A00003 is Rosa Captain Harry Stebbings
+07 мая 2021 15:59:02,111 [main] DEBUG com.kotov.flower_xml.builder.FlowerHandler : characters - ORIGIN for CutFlower with ID A00003 is North_America
+07 мая 2021 15:59:02,111 [main] DEBUG com.kotov.flower_xml.builder.FlowerHandler : characters - PETAL_COLOR for CutFlower with ID A00003 is red
+07 мая 2021 15:59:02,111 [main] DEBUG com.kotov.flower_xml.builder.FlowerHandler : characters - STEM_LENGTH for CutFlower with ID A00003 is 60
+07 мая 2021 15:59:02,111 [main] DEBUG com.kotov.flower_xml.builder.FlowerHandler : characters - BUD_STATE for CutFlower with ID A00003 is open
+07 мая 2021 15:59:02,111 [main] DEBUG com.kotov.flower_xml.builder.FlowerHandler : endElement - CutFlower with ID A00003 is filled and added into Set<Flower>
+07 мая 2021 15:59:02,111 [main] DEBUG com.kotov.flower_xml.builder.FlowerHandler : startElement - IndoorFlower is created
+07 мая 2021 15:59:02,111 [main] DEBUG com.kotov.flower_xml.builder.FlowerHandler : setFlowerAttributes - Attribute VENDOR_CODE for IndoorFlower with ID B00001 is B00001
+07 мая 2021 15:59:02,111 [main] DEBUG com.kotov.flower_xml.builder.FlowerHandler : setFlowerAttributes - Attribute PLANTING_DATE for IndoorFlower with ID B00001 is 2017-01-10
+07 мая 2021 15:59:02,111 [main] DEBUG com.kotov.flower_xml.builder.FlowerHandler : characters - TITLE for IndoorFlower with ID B00001 is Anigozanthos
+07 мая 2021 15:59:02,111 [main] DEBUG com.kotov.flower_xml.builder.FlowerHandler : characters - ORIGIN for IndoorFlower with ID B00001 is Australia
+07 мая 2021 15:59:02,111 [main] DEBUG com.kotov.flower_xml.builder.FlowerHandler : characters - PETAL_COLOR for IndoorFlower with ID B00001 is red
+07 мая 2021 15:59:02,111 [main] DEBUG com.kotov.flower_xml.builder.FlowerHandler : characters - POT_TYPE for IndoorFlower with ID B00001 is solid
+07 мая 2021 15:59:02,111 [main] DEBUG com.kotov.flower_xml.builder.FlowerHandler : characters - SOIL for IndoorFlower with ID B00001 is turf
+07 мая 2021 15:59:02,111 [main] DEBUG com.kotov.flower_xml.builder.FlowerHandler : characters - WATERING for IndoorFlower with ID B00001 is 1200
+07 мая 2021 15:59:02,111 [main] DEBUG com.kotov.flower_xml.builder.FlowerHandler : characters - AVERAGE_TEMPERATURE for IndoorFlower with ID B00001 is 25
+07 мая 2021 15:59:02,111 [main] DEBUG com.kotov.flower_xml.builder.FlowerHandler : characters - PHOTOPHILOUS for IndoorFlower with ID B00001 is true
+07 мая 2021 15:59:02,111 [main] DEBUG com.kotov.flower_xml.builder.FlowerHandler : characters - MULTIPLYING for IndoorFlower with ID B00001 is seed
+07 мая 2021 15:59:02,111 [main] DEBUG com.kotov.flower_xml.builder.FlowerHandler : endElement - IndoorFlower with ID B00001 is filled and added into Set<Flower>
+07 мая 2021 15:59:02,111 [main] DEBUG com.kotov.flower_xml.builder.FlowerHandler : startElement - IndoorFlower is created
+07 мая 2021 15:59:02,111 [main] DEBUG com.kotov.flower_xml.builder.FlowerHandler : setFlowerAttributes - Attribute VENDOR_CODE for IndoorFlower with ID B00002 is B00002
+07 мая 2021 15:59:02,111 [main] DEBUG com.kotov.flower_xml.builder.FlowerHandler : setFlowerAttributes - Attribute PLANTING_DATE for IndoorFlower with ID B00002 is 2016-12-30
+07 мая 2021 15:59:02,111 [main] DEBUG com.kotov.flower_xml.builder.FlowerHandler : characters - TITLE for IndoorFlower with ID B00002 is Hippeastrum
+07 мая 2021 15:59:02,111 [main] DEBUG com.kotov.flower_xml.builder.FlowerHandler : characters - ORIGIN for IndoorFlower with ID B00002 is South_America
+07 мая 2021 15:59:02,111 [main] DEBUG com.kotov.flower_xml.builder.FlowerHandler : characters - PETAL_COLOR for IndoorFlower with ID B00002 is pink
+07 мая 2021 15:59:02,111 [main] DEBUG com.kotov.flower_xml.builder.FlowerHandler : characters - POT_TYPE for IndoorFlower with ID B00002 is drainage
+07 мая 2021 15:59:02,111 [main] DEBUG com.kotov.flower_xml.builder.FlowerHandler : characters - SOIL for IndoorFlower with ID B00002 is humus
+07 мая 2021 15:59:02,111 [main] DEBUG com.kotov.flower_xml.builder.FlowerHandler : characters - WATERING for IndoorFlower with ID B00002 is 750
+07 мая 2021 15:59:02,111 [main] DEBUG com.kotov.flower_xml.builder.FlowerHandler : characters - AVERAGE_TEMPERATURE for IndoorFlower with ID B00002 is 22
+07 мая 2021 15:59:02,111 [main] DEBUG com.kotov.flower_xml.builder.FlowerHandler : characters - PHOTOPHILOUS for IndoorFlower with ID B00002 is true
+07 мая 2021 15:59:02,111 [main] DEBUG com.kotov.flower_xml.builder.FlowerHandler : characters - MULTIPLYING for IndoorFlower with ID B00002 is seed
+07 мая 2021 15:59:02,111 [main] DEBUG com.kotov.flower_xml.builder.FlowerHandler : endElement - IndoorFlower with ID B00002 is filled and added into Set<Flower>
+07 мая 2021 15:59:02,111 [main] DEBUG com.kotov.flower_xml.builder.FlowerHandler : startElement - IndoorFlower is created
+07 мая 2021 15:59:02,111 [main] DEBUG com.kotov.flower_xml.builder.FlowerHandler : setFlowerAttributes - Attribute VENDOR_CODE for IndoorFlower with ID B00003 is B00003
+07 мая 2021 15:59:02,111 [main] DEBUG com.kotov.flower_xml.builder.FlowerHandler : setFlowerAttributes - Attribute PLANTING_DATE for IndoorFlower with ID B00003 is 2017-06-08
+07 мая 2021 15:59:02,111 [main] DEBUG com.kotov.flower_xml.builder.FlowerHandler : characters - TITLE for IndoorFlower with ID B00003 is Viola odorata
+07 мая 2021 15:59:02,111 [main] DEBUG com.kotov.flower_xml.builder.FlowerHandler : characters - ORIGIN for IndoorFlower with ID B00003 is Asia
+07 мая 2021 15:59:02,111 [main] DEBUG com.kotov.flower_xml.builder.FlowerHandler : characters - PETAL_COLOR for IndoorFlower with ID B00003 is blue
+07 мая 2021 15:59:02,111 [main] DEBUG com.kotov.flower_xml.builder.FlowerHandler : characters - POT_TYPE for IndoorFlower with ID B00003 is solid
+07 мая 2021 15:59:02,111 [main] DEBUG com.kotov.flower_xml.builder.FlowerHandler : characters - SOIL for IndoorFlower with ID B00003 is soddy-podzolic
+07 мая 2021 15:59:02,111 [main] DEBUG com.kotov.flower_xml.builder.FlowerHandler : characters - WATERING for IndoorFlower with ID B00003 is 350
+07 мая 2021 15:59:02,111 [main] DEBUG com.kotov.flower_xml.builder.FlowerHandler : characters - AVERAGE_TEMPERATURE for IndoorFlower with ID B00003 is 21
+07 мая 2021 15:59:02,111 [main] DEBUG com.kotov.flower_xml.builder.FlowerHandler : characters - PHOTOPHILOUS for IndoorFlower with ID B00003 is false
+07 мая 2021 15:59:02,127 [main] DEBUG com.kotov.flower_xml.builder.FlowerHandler : characters - MULTIPLYING for IndoorFlower with ID B00003 is leaf
+07 мая 2021 15:59:02,127 [main] DEBUG com.kotov.flower_xml.builder.FlowerHandler : endElement - IndoorFlower with ID B00003 is filled and added into Set<Flower>
+07 мая 2021 15:59:02,127 [main] INFO  com.kotov.flower_xml.builder.FlowerBuilder : buildFlowersFromXml - Construction of flower objects by SaxFlowerBuilder is successful
+07 мая 2021 15:59:02,127 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : buildFlower - CutFlower is created
+07 мая 2021 15:59:02,127 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : setAttributes - Attribute VENDOR_CODE for CutFlower with ID null is A00001
+07 мая 2021 15:59:02,127 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : setAttributes - Attribute PLANTING_DATE for CutFlower with ID A00001 is 2020-02-01
+07 мая 2021 15:59:02,127 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : setAttributes - Attribute CUT_DATE for CutFlower with ID A00001 is 2021-04-27
+07 мая 2021 15:59:02,127 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : setDefaultAttribute - Attribute LEAVES is added by default for flower with ID A00001
+07 мая 2021 15:59:02,127 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : buildFlower - TITLE for CutFlower with ID A00001 is 
+07 мая 2021 15:59:02,127 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : getElementData - Rosa Aida
+07 мая 2021 15:59:02,143 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : buildFlower - ORIGIN for CutFlower with ID A00001 is 
+07 мая 2021 15:59:02,143 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : getElementData - Europe
+07 мая 2021 15:59:02,143 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : buildFlower - PETAL_COLOR for CutFlower with ID A00001 is 
+07 мая 2021 15:59:02,143 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : getElementData - pink
+07 мая 2021 15:59:02,143 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : buildFlower - STEM_LENGTH for CutFlower with ID A00001 is 
+07 мая 2021 15:59:02,143 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : getElementData - 70
+07 мая 2021 15:59:02,143 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : buildFlower - BUD_STATE for CutFlower with ID A00001 is 
+07 мая 2021 15:59:02,143 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : getElementData - open
+07 мая 2021 15:59:02,143 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : buildFlowersFromXml - CutFlower with ID A00001 is filled and added into Set<Flower>
+07 мая 2021 15:59:02,143 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : buildFlower - CutFlower is created
+07 мая 2021 15:59:02,143 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : setAttributes - Attribute VENDOR_CODE for CutFlower with ID null is A00002
+07 мая 2021 15:59:02,143 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : setAttributes - Attribute PLANTING_DATE for CutFlower with ID A00002 is 2020-05-10
+07 мая 2021 15:59:02,143 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : setAttributes - Attribute CUT_DATE for CutFlower with ID A00002 is 2021-04-27
+07 мая 2021 15:59:02,143 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : setAttributes - Attribute LEAVES for CutFlower with ID A00002 is false
+07 мая 2021 15:59:02,143 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : buildFlower - TITLE for CutFlower with ID A00002 is 
+07 мая 2021 15:59:02,143 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : getElementData - Rosa Duftwolke
+07 мая 2021 15:59:02,143 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : buildFlower - ORIGIN for CutFlower with ID A00002 is 
+07 мая 2021 15:59:02,143 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : getElementData - Europe
+07 мая 2021 15:59:02,143 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : buildFlower - PETAL_COLOR for CutFlower with ID A00002 is 
+07 мая 2021 15:59:02,143 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : getElementData - red
+07 мая 2021 15:59:02,143 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : buildFlower - STEM_LENGTH for CutFlower with ID A00002 is 
+07 мая 2021 15:59:02,143 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : getElementData - 72
+07 мая 2021 15:59:02,143 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : buildFlower - BUD_STATE for CutFlower with ID A00002 is 
+07 мая 2021 15:59:02,143 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : getElementData - half_open
+07 мая 2021 15:59:02,143 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : buildFlowersFromXml - CutFlower with ID A00002 is filled and added into Set<Flower>
+07 мая 2021 15:59:02,143 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : buildFlower - CutFlower is created
+07 мая 2021 15:59:02,143 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : setAttributes - Attribute VENDOR_CODE for CutFlower with ID null is A00003
+07 мая 2021 15:59:02,143 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : setAttributes - Attribute PLANTING_DATE for CutFlower with ID A00003 is 2019-07-09
+07 мая 2021 15:59:02,143 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : setAttributes - Attribute CUT_DATE for CutFlower with ID A00003 is 2021-04-27
+07 мая 2021 15:59:02,143 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : setDefaultAttribute - Attribute LEAVES is added by default for flower with ID A00003
+07 мая 2021 15:59:02,143 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : buildFlower - TITLE for CutFlower with ID A00003 is 
+07 мая 2021 15:59:02,143 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : getElementData - Rosa Captain Harry Stebbings
+07 мая 2021 15:59:02,143 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : buildFlower - ORIGIN for CutFlower with ID A00003 is 
+07 мая 2021 15:59:02,158 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : getElementData - North_America
+07 мая 2021 15:59:02,158 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : buildFlower - PETAL_COLOR for CutFlower with ID A00003 is 
+07 мая 2021 15:59:02,158 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : getElementData - red
+07 мая 2021 15:59:02,158 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : buildFlower - STEM_LENGTH for CutFlower with ID A00003 is 
+07 мая 2021 15:59:02,158 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : getElementData - 60
+07 мая 2021 15:59:02,158 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : buildFlower - BUD_STATE for CutFlower with ID A00003 is 
+07 мая 2021 15:59:02,158 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : getElementData - open
+07 мая 2021 15:59:02,158 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : buildFlowersFromXml - CutFlower with ID A00003 is filled and added into Set<Flower>
+07 мая 2021 15:59:02,158 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : buildFlower - IndoorFlower is created
+07 мая 2021 15:59:02,158 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : setAttributes - Attribute VENDOR_CODE for IndoorFlower with ID null is B00001
+07 мая 2021 15:59:02,158 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : setAttributes - Attribute PLANTING_DATE for IndoorFlower with ID B00001 is 2017-01-10
+07 мая 2021 15:59:02,158 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : buildFlower - TITLE for IndoorFlower with ID B00001 is 
+07 мая 2021 15:59:02,158 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : getElementData - Anigozanthos
+07 мая 2021 15:59:02,158 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : buildFlower - ORIGIN for IndoorFlower with ID B00001 is 
+07 мая 2021 15:59:02,158 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : getElementData - Australia
+07 мая 2021 15:59:02,158 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : buildFlower - PETAL_COLOR for IndoorFlower with ID B00001 is 
+07 мая 2021 15:59:02,158 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : getElementData - red
+07 мая 2021 15:59:02,158 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : buildFlower - POT_TYPE for IndoorFlower with ID B00001 is 
+07 мая 2021 15:59:02,158 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : getElementData - solid
+07 мая 2021 15:59:02,158 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : buildFlower - SOIL for IndoorFlower with ID B00001 is 
+07 мая 2021 15:59:02,158 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : getElementData - turf
+07 мая 2021 15:59:02,158 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : buildFlower - WATERING for IndoorFlower with ID B00001 is 
+07 мая 2021 15:59:02,158 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : getElementData - 1200
+07 мая 2021 15:59:02,158 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : buildFlower - AVERAGE_TEMPERATURE for IndoorFlower with ID B00001 is 
+07 мая 2021 15:59:02,158 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : getElementData - 25
+07 мая 2021 15:59:02,158 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : buildFlower - PHOTOPHILOUS for IndoorFlower with ID B00001 is 
+07 мая 2021 15:59:02,158 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : getElementData - true
+07 мая 2021 15:59:02,158 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : buildFlower - MULTIPLYING for IndoorFlower with ID B00001 is 
+07 мая 2021 15:59:02,158 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : getElementData - seed
+07 мая 2021 15:59:02,158 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : buildFlowersFromXml - IndoorFlower with ID B00001 is filled and added into Set<Flower>
+07 мая 2021 15:59:02,158 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : buildFlower - IndoorFlower is created
+07 мая 2021 15:59:02,158 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : setAttributes - Attribute VENDOR_CODE for IndoorFlower with ID null is B00002
+07 мая 2021 15:59:02,158 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : setAttributes - Attribute PLANTING_DATE for IndoorFlower with ID B00002 is 2016-12-30
+07 мая 2021 15:59:02,158 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : buildFlower - TITLE for IndoorFlower with ID B00002 is 
+07 мая 2021 15:59:02,158 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : getElementData - Hippeastrum
+07 мая 2021 15:59:02,158 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : buildFlower - ORIGIN for IndoorFlower with ID B00002 is 
+07 мая 2021 15:59:02,158 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : getElementData - South_America
+07 мая 2021 15:59:02,158 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : buildFlower - PETAL_COLOR for IndoorFlower with ID B00002 is 
+07 мая 2021 15:59:02,158 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : getElementData - pink
+07 мая 2021 15:59:02,158 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : buildFlower - POT_TYPE for IndoorFlower with ID B00002 is 
+07 мая 2021 15:59:02,158 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : getElementData - drainage
+07 мая 2021 15:59:02,158 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : buildFlower - SOIL for IndoorFlower with ID B00002 is 
+07 мая 2021 15:59:02,158 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : getElementData - humus
+07 мая 2021 15:59:02,158 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : buildFlower - WATERING for IndoorFlower with ID B00002 is 
+07 мая 2021 15:59:02,158 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : getElementData - 750
+07 мая 2021 15:59:02,158 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : buildFlower - AVERAGE_TEMPERATURE for IndoorFlower with ID B00002 is 
+07 мая 2021 15:59:02,158 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : getElementData - 22
+07 мая 2021 15:59:02,158 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : buildFlower - PHOTOPHILOUS for IndoorFlower with ID B00002 is 
+07 мая 2021 15:59:02,158 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : getElementData - true
+07 мая 2021 15:59:02,174 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : buildFlower - MULTIPLYING for IndoorFlower with ID B00002 is 
+07 мая 2021 15:59:02,174 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : getElementData - seed
+07 мая 2021 15:59:02,174 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : buildFlowersFromXml - IndoorFlower with ID B00002 is filled and added into Set<Flower>
+07 мая 2021 15:59:02,174 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : buildFlower - IndoorFlower is created
+07 мая 2021 15:59:02,174 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : setAttributes - Attribute VENDOR_CODE for IndoorFlower with ID null is B00003
+07 мая 2021 15:59:02,174 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : setAttributes - Attribute PLANTING_DATE for IndoorFlower with ID B00003 is 2017-06-08
+07 мая 2021 15:59:02,174 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : buildFlower - TITLE for IndoorFlower with ID B00003 is 
+07 мая 2021 15:59:02,174 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : getElementData - Viola odorata
+07 мая 2021 15:59:02,174 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : buildFlower - ORIGIN for IndoorFlower with ID B00003 is 
+07 мая 2021 15:59:02,174 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : getElementData - Asia
+07 мая 2021 15:59:02,174 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : buildFlower - PETAL_COLOR for IndoorFlower with ID B00003 is 
+07 мая 2021 15:59:02,174 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : getElementData - blue
+07 мая 2021 15:59:02,174 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : buildFlower - POT_TYPE for IndoorFlower with ID B00003 is 
+07 мая 2021 15:59:02,174 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : getElementData - solid
+07 мая 2021 15:59:02,174 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : buildFlower - SOIL for IndoorFlower with ID B00003 is 
+07 мая 2021 15:59:02,174 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : getElementData - soddy-podzolic
+07 мая 2021 15:59:02,174 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : buildFlower - WATERING for IndoorFlower with ID B00003 is 
+07 мая 2021 15:59:02,174 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : getElementData - 350
+07 мая 2021 15:59:02,174 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : buildFlower - AVERAGE_TEMPERATURE for IndoorFlower with ID B00003 is 
+07 мая 2021 15:59:02,174 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : getElementData - 21
+07 мая 2021 15:59:02,174 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : buildFlower - PHOTOPHILOUS for IndoorFlower with ID B00003 is 
+07 мая 2021 15:59:02,174 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : getElementData - false
+07 мая 2021 15:59:02,174 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : buildFlower - MULTIPLYING for IndoorFlower with ID B00003 is 
+07 мая 2021 15:59:02,174 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : getElementData - leaf
+07 мая 2021 15:59:02,174 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : buildFlowersFromXml - IndoorFlower with ID B00003 is filled and added into Set<Flower>
+07 мая 2021 15:59:02,174 [main] INFO  com.kotov.flower_xml.builder.FlowerBuilder : buildFlowersFromXml - Construction of flower objects by StreamStaxFlowerBuilder is successful
+07 мая 2021 15:59:02,189 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : buildFlowersFromXml - CutFlower is created
+07 мая 2021 15:59:02,189 [main] TRACE com.kotov.flower_xml.builder.FlowerBuilder : setAttributes - Attribute LEAVES is added by default for flower with ID A00001
+07 мая 2021 15:59:02,189 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : buildFlowersFromXml - CutFlower with ID A00001 is filled and added into Set<Flower>
+07 мая 2021 15:59:02,189 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : buildFlowersFromXml - CutFlower is created
+07 мая 2021 15:59:02,189 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : buildFlowersFromXml - CutFlower with ID A00002 is filled and added into Set<Flower>
+07 мая 2021 15:59:02,189 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : buildFlowersFromXml - CutFlower is created
+07 мая 2021 15:59:02,205 [main] TRACE com.kotov.flower_xml.builder.FlowerBuilder : setAttributes - Attribute LEAVES is added by default for flower with ID A00003
+07 мая 2021 15:59:02,205 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : buildFlowersFromXml - CutFlower with ID A00003 is filled and added into Set<Flower>
+07 мая 2021 15:59:02,205 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : buildFlowersFromXml - IndoorFlower is created
+07 мая 2021 15:59:02,205 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : buildFlowersFromXml - IndoorFlower with ID B00001 is filled and added into Set<Flower>
+07 мая 2021 15:59:02,205 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : buildFlowersFromXml - IndoorFlower is created
+07 мая 2021 15:59:02,205 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : buildFlowersFromXml - IndoorFlower with ID B00002 is filled and added into Set<Flower>
+07 мая 2021 15:59:02,205 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : buildFlowersFromXml - IndoorFlower is created
+07 мая 2021 15:59:02,205 [main] DEBUG com.kotov.flower_xml.builder.FlowerBuilder : buildFlowersFromXml - IndoorFlower with ID B00003 is filled and added into Set<Flower>
+07 мая 2021 15:59:02,205 [main] INFO  com.kotov.flower_xml.builder.FlowerBuilder : buildFlowersFromXml - Construction of flower objects by EventStaxFlowerBuilder is successful
+07 мая 2021 15:59:02,314 [main] INFO  com.kotov.flower_xml.validator.FlowerXmlValidator : isXmlFileValid - Result of test_resources\testFlowers.xml validation is true
+07 мая 2021 15:59:02,330 [main] INFO  com.kotov.flower_xml.validator.FlowerXmlValidator : isXmlFileValid - Result of test_resources\invalidFlowerData.xml validation is false
